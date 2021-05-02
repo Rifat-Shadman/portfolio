@@ -1,0 +1,50 @@
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-size: 1.5em; */
+    line-height: 2em;
+    margin-bottom: 1.5em;
+}
+
+.outer-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  .outer-container::after {
+    clear: both;
+    content: '';
+    display: table
+  }
+  
+  .inner-container {
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  .inner-container::after {
+    clear: both;
+    content: '';
+    display: table
+  }
+  
+  .inner-container,
+  .outer-container {
+    padding-left: 2em;
+    padding-right: 2em
+  }

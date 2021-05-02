@@ -6,6 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+h3 {
+  font-size: 1.65em;
+  line-height: 1em;
+  margin-bottom: 2em;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +41,7 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
